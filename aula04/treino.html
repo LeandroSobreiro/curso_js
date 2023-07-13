@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treinando</title>
+</head>
+<style>
+    #teste {
+        background: blue;
+        height: 200px;
+        width: 200px;
+        text-align: center;
+        line-height: 190px;
+        font-style: italic;
+        font-size: 50px;
+        color: aliceblue;
+        border-radius: 50px;
+       
+    }
+</style>
+<body>
+    <div id="teste">
+        Leandro
+    </div>
+    <script>
+        var nova = document.getElementById("teste");
+        teste.addEventListener("click", clicar);
+        teste.addEventListener("mouseenter", entrar);
+        teste.addEventListener("dblclick", duplo);
+        function clicar() {
+            teste.innerText = 'Dulcinéa'
+            teste.style.background = 'pink';
+            teste.style.color = 'black';
+            
+        }
+        function entrar(){
+            teste.innerText = 'ama'
+            teste.style.background = 'red';
+        }        
+        function duplo(){
+            teste.innerText = 'Théo'
+            teste.style.background = 'green'
+            
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imprimindo Nome</h1>
+    <input type="text" placeholder="Escreva seu nome:" name="nome" id="nome">
+    <button onclick="ok()">Confirmar</button>
+    <h5 id="res"></h5>
+    <script>
+        function ok() {
+            var recebenome = document.querySelector("#nome");
+            var valornome = String(recebenome.value);
+            var res = document.querySelector("#res");
+            res.innerHTML = `${valornome}`
+            
+        }
+    </script>
+</body>
+</html>
