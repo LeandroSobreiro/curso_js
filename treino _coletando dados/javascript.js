@@ -6,7 +6,7 @@ function enviando(){
    if( nome == ""){
     window.alert('Erro digite novamente...' )
    }else{
-    res.innerHTML = `Ola ${nome} prazer `
+    res.innerHTML = `Ola ${nome} prazer que esteva aqui !!`
    }
 
 }
