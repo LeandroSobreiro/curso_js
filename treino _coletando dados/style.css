@@ -2,11 +2,12 @@ body{
     background-color: rgb(70, 70, 96);
     text-align: center;
     justify-content: center;
+    background-image: url(pexels-codioful-\(formerly-gradienta\)-7130546.jpg);
 }
 
 .load {
-margin: 0px 180px;
-border: 4px solid rgb(253, 253, 253) ;
+margin: 50px 180px;
+border: 4px solid rgb(27, 31, 41) ;
 width: 100px;
 height: 100px ;
 border-radius: 50%;
